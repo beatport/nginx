@@ -2,10 +2,17 @@ nginx Cookbook CHANGELOG
 ========================
 This file is used to list changes made in each version of the nginx cookbook.
 
+v2.7.7 / 2016-06-14
+==================
+
+* Fixed the ohai recipe to work with V4.1.0 of the ohai cookbook.
+* Added Test Kitchen tests for Ubuntu 14.04.
+* Version bumped gems in the Gemfile including Berkshelf, rubocop, foodcritic.
+  
 v2.7.6 / 2015-03-17
 ==================
 
-  * Bugfix sites do not need a .conf suffix anymore, [#338][] [@runningman84][]
+* Bugfix sites do not need a .conf suffix anymore, [#338][] [@runningman84][]
 
 v2.7.5 (2015-03-17)
 -------------------
