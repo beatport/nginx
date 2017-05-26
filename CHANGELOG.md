@@ -2,6 +2,13 @@ nginx Cookbook CHANGELOG
 ========================
 This file is used to list changes made in each version of the nginx cookbook.
 
+v2.7.8 / 2017-05-26
+===================
+
+* Pinned `build-essential` cookbook dependency to v7.0.x.
+* Test Kitchen set to use Chef Omnibux 12.x for compatibility.
+* Changed Test Kitchen to use Chef Solo instead of Chef Zero.
+
 v2.7.7 / 2016-06-14
 ==================
 
